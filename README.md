@@ -4,8 +4,7 @@ It allows users to select a gene and view its average expression across differen
 The app uses Plotly for visualization and Dash for the web interface.  
 
 # Prerequest
-1.Corresponding singel cell object & UCSC single cell brwoser (https://cellbrowser.readthedocs.io/en/master/installation.html)  
-2. Conda environment:  
+1. Conda environment:  
     import scanpy as sc  
     import pandas as pd  
     import numpy as np  
@@ -15,3 +14,11 @@ The app uses Plotly for visualization and Dash for the web interface.
     import atexit  
     import webbrowser  
     import socket  
+
+
+2.Corresponding singel cell object & UCSC single cell brwoser (https://cellbrowser.readthedocs.io/en/master/installation.html)  
+
+Command used:
+cbImportScanpy -i human_brain_vasculature_atlas_normalized.h5ad -o vas_atlas
+
+
