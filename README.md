@@ -18,7 +18,7 @@ The app uses Plotly for visualization and Dash for the web interface.
 
 2.Corresponding singel cell object & UCSC single cell brwoser (https://cellbrowser.readthedocs.io/en/master/installation.html)  
 
-Command used:
-cbImportScanpy -i human_brain_vasculature_atlas_normalized.h5ad -o vas_atlas
+    Command used:
+    cbImportScanpy -i human_brain_vasculature_atlas_normalized.h5ad -o vas_atlas
 
 
