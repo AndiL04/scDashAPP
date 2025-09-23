@@ -4,10 +4,10 @@ It allows users to select a gene and view its average expression across differen
 The app uses Plotly for visualization and Dash for the web interface.  
 The UCSC Cell Browser instruction: https://cellbrowser.readthedocs.io/en/master/interface.html
 
-# Data requied
+## Data requirements:  
 Toy data: "/path/to/the/scDashAPP/merged_normalized_sub.h5ad". This .h5ad file contains normalized gene expression of 10,000 nuclei.  
 In this guide, download all repository by:  
-        git clone https://github.com/AndiL04/scDashAPP
+        git clone https://github.com/AndiL04/scDashAPP  
 
 ## Install prerequisites
         cd /path/to/the/scDashAPP  
@@ -52,9 +52,9 @@ Based on the tutorial: https://cellbrowser.readthedocs.io/en/master/scanpy.html
         "cell.type.middle": "cell.type.middle_colors.tsv"
         }
 
-## Finally,start the Dash APP  
+## Finally, start the Dash APP  
         python Dash_app.py  
 
-### Open the add at http://127.0.0.1:8050/  
+## Open the APP at http://127.0.0.1:8050/  
 The cell browser page is hosed seperately at http://127.0.0.1:8888/  
 The port can be changed in the Dash_app.py  
